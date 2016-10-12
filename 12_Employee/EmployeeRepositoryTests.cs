@@ -25,13 +25,13 @@ namespace _12_Employee
             
         }
 
-        /*[TestMethod]
+        [TestMethod]
         public void Create() 
         {
             EmployeeRepository repository = CreateRepository();
             repository.Clear();
             Employee simon = repository.CreateEmployee("Simon Stochholm", "Teacher");
-            Assert.AreEqual("simon Stochholm", simon.Name);
+            Assert.AreEqual("Simon Stochholm", simon.Name);
             Assert.AreEqual("Teacher", simon.Type);
             Assert.IsTrue(simon.Id != 0);
             Employee nick = repository.CreateEmployee("Nick Chaffee", "Translator");
@@ -105,6 +105,6 @@ namespace _12_Employee
             nick = repository.LoadEmployee(nick.Id);
             Assert.AreEqual("Sous chef", nick.Type);
             
-        }*/
+        }
     }
 }
